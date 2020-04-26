@@ -19,7 +19,7 @@ public class SearchProductsTestCase extends BaseClass{
 		searchproductpage.addProduct(Product_Name);
 		logger.pass("Product added successfully");
 		
-	}
+	} 
 	
 	@DataProvider(name="ProductsName")
 	public Object[] productList()
