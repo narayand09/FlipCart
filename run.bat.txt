@@ -1,0 +1,2 @@
+cd "d:\Java_2019\FlipCart"
+mvn clean install

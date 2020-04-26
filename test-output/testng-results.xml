@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="2" total="8" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="264018" started-at="2020-04-19T05:44:25Z" finished-at="2020-04-19T05:48:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="264018" started-at="2020-04-19T05:44:25Z" finished-at="2020-04-19T05:48:49Z">
+      <class name="com.flipcart.testcases.loginFlipcartTestCase">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.flipcart.testcases.loginFlipcartTestCase@be83e4]" name="setupSuite" is-config="true" duration-ms="52302" started-at="2020-04-19T11:13:33Z" finished-at="2020-04-19T11:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.flipcart.testcases.loginFlipcartTestCase@be83e4]" name="setup" is-config="true" duration-ms="1" started-at="2020-04-19T11:14:25Z" finished-at="2020-04-19T11:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginFlipCart()[pri:3, instance:com.flipcart.testcases.loginFlipcartTestCase@be83e4]" name="loginFlipCart" duration-ms="3104" started-at="2020-04-19T11:14:25Z" finished-at="2020-04-19T11:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFlipCart -->
+        <test-method status="PASS" signature="teardownMethods(org.testng.ITestResult)[pri:0, instance:com.flipcart.testcases.loginFlipcartTestCase@be83e4]" name="teardownMethods" is-config="true" duration-ms="2399" started-at="2020-04-19T11:14:29Z" finished-at="2020-04-19T11:14:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginFlipCart status=SUCCESS method=loginFlipcartTestCase.loginFlipCart()[pri:3, instance:com.flipcart.testcases.loginFlipcartTestCase@be83e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethods -->
+        <test-method status="PASS" signature="test2()[pri:4, instance:com.flipcart.testcases.loginFlipcartTestCase@be83e4]" name="test2" duration-ms="4" started-at="2020-04-19T11:14:31Z" finished-at="2020-04-19T11:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="teardownMethods(org.testng.ITestResult)[pri:0, instance:com.flipcart.testcases.loginFlipcartTestCase@be83e4]" name="teardownMethods" is-config="true" duration-ms="253" started-at="2020-04-19T11:14:31Z" finished-at="2020-04-19T11:14:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=loginFlipcartTestCase.test2()[pri:4, instance:com.flipcart.testcases.loginFlipcartTestCase@be83e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethods -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flipcart.testcases.loginFlipcartTestCase@be83e4]" name="teardown" is-config="true" duration-ms="0" started-at="2020-04-19T11:18:49Z" finished-at="2020-04-19T11:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipcart.testcases.loginFlipcartTestCase -->
+      <class name="com.flipcart.testcases.SearchProductsTestCase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822]" name="setup" is-config="true" duration-ms="0" started-at="2020-04-19T11:14:31Z" finished-at="2020-04-19T11:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="addToCart(java.lang.String)[pri:5, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822]" name="addToCart" duration-ms="77538" started-at="2020-04-19T11:14:31Z" data-provider="ProductsName" finished-at="2020-04-19T11:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mi 10000 mAh Power Bank (PB10IZM, 18W Fast Charging)  (Black, Lithium Polymer)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='_2AkmmA _2Npkh4 _2MWPVK']"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5007abc0871053a83d21fbee569721cc
+*** Element info: {Using=xpath, value=//button[@class='_2AkmmA _2Npkh4 _2MWPVK']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='_2AkmmA _2Npkh4 _2MWPVK']"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5007abc0871053a83d21fbee569721cc
+*** Element info: {Using=xpath, value=//button[@class='_2AkmmA _2Npkh4 _2MWPVK']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.flipcart.pages.SearchProductsPage.addProduct(SearchProductsPage.java:38)
+	at com.flipcart.testcases.SearchProductsTestCase.addToCart(SearchProductsTestCase.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="teardownMethods(org.testng.ITestResult)[pri:0, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822]" name="teardownMethods" is-config="true" duration-ms="1977" started-at="2020-04-19T11:15:49Z" finished-at="2020-04-19T11:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=FAILURE method=SearchProductsTestCase.addToCart(java.lang.String)[pri:5, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethods -->
+        <test-method status="FAIL" signature="addToCart(java.lang.String)[pri:5, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822]" name="addToCart" duration-ms="71838" started-at="2020-04-19T11:15:51Z" data-provider="ProductsName" finished-at="2020-04-19T11:17:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accessorize MN-58985197001 Backpack  (Multicolor, 12 inch)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='_2AkmmA _2Npkh4 _2MWPVK']"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5007abc0871053a83d21fbee569721cc
+*** Element info: {Using=xpath, value=//button[@class='_2AkmmA _2Npkh4 _2MWPVK']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='_2AkmmA _2Npkh4 _2MWPVK']"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5007abc0871053a83d21fbee569721cc
+*** Element info: {Using=xpath, value=//button[@class='_2AkmmA _2Npkh4 _2MWPVK']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.flipcart.pages.SearchProductsPage.addProduct(SearchProductsPage.java:38)
+	at com.flipcart.testcases.SearchProductsTestCase.addToCart(SearchProductsTestCase.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="teardownMethods(org.testng.ITestResult)[pri:0, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822]" name="teardownMethods" is-config="true" duration-ms="1736" started-at="2020-04-19T11:17:03Z" finished-at="2020-04-19T11:17:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=FAILURE method=SearchProductsTestCase.addToCart(java.lang.String)[pri:5, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethods -->
+        <test-method status="FAIL" signature="addToCart(java.lang.String)[pri:5, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822]" name="addToCart" duration-ms="85135" started-at="2020-04-19T11:17:04Z" data-provider="ProductsName" finished-at="2020-04-19T11:18:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mi LED Smart TV 4A PRO 80 cm (32) with Android#JustHere]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='_2AkmmA _2Npkh4 _2MWPVK']"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5007abc0871053a83d21fbee569721cc
+*** Element info: {Using=xpath, value=//button[@class='_2AkmmA _2Npkh4 _2MWPVK']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='_2AkmmA _2Npkh4 _2MWPVK']"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5007abc0871053a83d21fbee569721cc
+*** Element info: {Using=xpath, value=//button[@class='_2AkmmA _2Npkh4 _2MWPVK']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.flipcart.pages.SearchProductsPage.addProduct(SearchProductsPage.java:38)
+	at com.flipcart.testcases.SearchProductsTestCase.addToCart(SearchProductsTestCase.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="teardownMethods(org.testng.ITestResult)[pri:0, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822]" name="teardownMethods" is-config="true" duration-ms="1980" started-at="2020-04-19T11:18:30Z" finished-at="2020-04-19T11:18:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=FAILURE method=SearchProductsTestCase.addToCart(java.lang.String)[pri:5, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethods -->
+        <test-method status="PASS" signature="addToCart(java.lang.String)[pri:5, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822]" name="addToCart" duration-ms="17620" started-at="2020-04-19T11:18:32Z" data-provider="ProductsName" finished-at="2020-04-19T11:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo Z1Pro (Sonic Black, 64 GB)  (4 GB RAM)#JustHere]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="teardownMethods(org.testng.ITestResult)[pri:0, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822]" name="teardownMethods" is-config="true" duration-ms="132" started-at="2020-04-19T11:18:49Z" finished-at="2020-04-19T11:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=SearchProductsTestCase.addToCart(java.lang.String)[pri:5, instance:com.flipcart.testcases.SearchProductsTestCase@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethods -->
+      </class> <!-- com.flipcart.testcases.SearchProductsTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
